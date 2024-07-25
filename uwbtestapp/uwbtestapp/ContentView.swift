@@ -43,6 +43,7 @@ class EstimoteUWBManagerExample: NSObject, ObservableObject {
 extension EstimoteUWBManagerExample: EstimoteUWBManagerDelegate {
     func didUpdatePosition(for device: EstimoteUWBDevice) {
         print("Position updated for device: \(device)")
+        
     }
     
     // OPTIONAL

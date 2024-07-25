@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B9EF46F2C5291A600BE0A24 /* SimpleTrilaterationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EF46C2C5291A600BE0A24 /* SimpleTrilaterationView.swift */; };
+		6B9EF4702C5291A600BE0A24 /* CalibrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EF46D2C5291A600BE0A24 /* CalibrationView.swift */; };
+		6B9EF4712C5291A600BE0A24 /* GridSampleCollectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EF46E2C5291A600BE0A24 /* GridSampleCollectorView.swift */; };
+		6B9EF4752C5294F400BE0A24 /* AngleDistanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EF4742C5294F400BE0A24 /* AngleDistanceView.swift */; };
+		6B9EF4772C529F1A00BE0A24 /* PointSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EF4762C529F1A00BE0A24 /* PointSender.swift */; };
 		D076FDA92A5631C50039905B /* EstimoteUWB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0933FFA2878A4C7001FFF0E /* EstimoteUWB.xcframework */; };
 		D076FDAA2A5631C50039905B /* EstimoteUWB.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0933FFA2878A4C7001FFF0E /* EstimoteUWB.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0F3198727924DD300075045 /* uwbtestappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3198627924DD300075045 /* uwbtestappApp.swift */; };
@@ -30,6 +35,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6B9EF46C2C5291A600BE0A24 /* SimpleTrilaterationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTrilaterationView.swift; sourceTree = "<group>"; };
+		6B9EF46D2C5291A600BE0A24 /* CalibrationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalibrationView.swift; sourceTree = "<group>"; };
+		6B9EF46E2C5291A600BE0A24 /* GridSampleCollectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridSampleCollectorView.swift; sourceTree = "<group>"; };
+		6B9EF4742C5294F400BE0A24 /* AngleDistanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleDistanceView.swift; sourceTree = "<group>"; };
+		6B9EF4762C529F1A00BE0A24 /* PointSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointSender.swift; sourceTree = "<group>"; };
 		D0933FFA2878A4C7001FFF0E /* EstimoteUWB.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = EstimoteUWB.xcframework; path = uwbtestapp/EstimoteUWB.xcframework; sourceTree = "<group>"; };
 		D0F3198327924DD300075045 /* uwbtestapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uwbtestapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F3198627924DD300075045 /* uwbtestappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uwbtestappApp.swift; sourceTree = "<group>"; };
@@ -71,11 +81,16 @@
 		D0F3198527924DD300075045 /* uwbtestapp */ = {
 			isa = PBXGroup;
 			children = (
+				6B9EF46D2C5291A600BE0A24 /* CalibrationView.swift */,
+				6B9EF46E2C5291A600BE0A24 /* GridSampleCollectorView.swift */,
+				6B9EF46C2C5291A600BE0A24 /* SimpleTrilaterationView.swift */,
 				D0F319992792521400075045 /* Info.plist */,
 				D0F3198627924DD300075045 /* uwbtestappApp.swift */,
 				D0F3198827924DD300075045 /* ContentView.swift */,
 				D0F3198A27924DD400075045 /* Assets.xcassets */,
 				D0F3198C27924DD400075045 /* Preview Content */,
+				6B9EF4742C5294F400BE0A24 /* AngleDistanceView.swift */,
+				6B9EF4762C529F1A00BE0A24 /* PointSender.swift */,
 			);
 			path = uwbtestapp;
 			sourceTree = "<group>";
@@ -168,7 +183,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F3198927924DD300075045 /* ContentView.swift in Sources */,
+				6B9EF4772C529F1A00BE0A24 /* PointSender.swift in Sources */,
 				D0F3198727924DD300075045 /* uwbtestappApp.swift in Sources */,
+				6B9EF4712C5291A600BE0A24 /* GridSampleCollectorView.swift in Sources */,
+				6B9EF4752C5294F400BE0A24 /* AngleDistanceView.swift in Sources */,
+				6B9EF46F2C5291A600BE0A24 /* SimpleTrilaterationView.swift in Sources */,
+				6B9EF4702C5291A600BE0A24 /* CalibrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"uwbtestapp/Preview Content\"";
-				DEVELOPMENT_TEAM = AR5P24RW9V;
+				DEVELOPMENT_TEAM = FRS83Z37QK;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,6 +330,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = uwbtestapp/Info.plist;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Turn on to allow \"Estimote UWB\" to connect to accessories.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "camera is utlizied for arkit to give user horizontal and vertical info";
 				INFOPLIST_KEY_NSNearbyInteractionAllowOnceUsageDescription = "Turn on to allow \"Estimote UWB\" to connect to accessories.";
 				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "Turn on to allow \"Estimote UWB\" to connect to accessories.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -323,7 +344,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.estimote.uwbtestapp;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.unica.dmi.atlantide-uwb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,7 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"uwbtestapp/Preview Content\"";
-				DEVELOPMENT_TEAM = AR5P24RW9V;
+				DEVELOPMENT_TEAM = FRS83Z37QK;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -348,6 +369,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = uwbtestapp/Info.plist;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Turn on to allow \"Estimote UWB\" to connect to accessories.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "camera is utlizied for arkit to give user horizontal and vertical info";
 				INFOPLIST_KEY_NSNearbyInteractionAllowOnceUsageDescription = "Turn on to allow \"Estimote UWB\" to connect to accessories.";
 				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "Turn on to allow \"Estimote UWB\" to connect to accessories.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -361,7 +383,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.estimote.uwbtestapp;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.unica.dmi.atlantide-uwb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

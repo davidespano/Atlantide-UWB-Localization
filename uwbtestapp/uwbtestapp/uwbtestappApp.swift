@@ -11,7 +11,7 @@ import SwiftUI
 struct uwbtestappApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AngleDistanceView()
         }
     }
 }
