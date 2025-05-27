@@ -11,7 +11,7 @@ import EstimoteUWB
 struct AngleDistanceView: View {
     let uwb = AngleDistanceUWBManager()
     
-    @State var ip = "192.168.1.174"
+    @State var ip = "192.168.1.174:5000"
     
     
     
@@ -35,7 +35,7 @@ struct AngleDistanceView: View {
                         if connectButtonText == "Connect to Beacons"{
                             uwb.connectUWB()
                             
-                            pointSender.setUrl(url: URL(string: "http:\(ip):5000/updatePosition")!)
+                            pointSender.setUrl(url: URL(string: "http:\(ip)/updatePosition")!)
                             pointSender.start()
                             
                             Task {
